@@ -3,7 +3,6 @@ from hangmanart import logo
 print(logo)
 from hangmanart import stages
 from hangmanart import word_list
-
 choice=random.choice(word_list)
 print(choice)
 word_len=len(choice)
