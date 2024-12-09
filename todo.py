@@ -11,7 +11,7 @@ def add_task():
     to_do_list.append(task)
     print(f"Task '{task}' added.")
 def remove_task():
-    tasknum=input("Enter task number")
+    tasknum=int(input("Enter task number"))
     if 0<tasknum<=len(to_do_list):
         remove_task=to_do_list.pop(tasknum-1)
         print(f"Task '{remove_task}' removed.")
